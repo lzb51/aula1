@@ -27,7 +27,7 @@ pyautogui.press("enter")
 time.sleep(3)
 
 #passo 2:    login: dasbdabsiu@gmail.com 
-pyautogui.click(x=-1208, y=378)
+pyautogui.click(x=871, y=376)
 pyautogui.write("robertin@gmail.com")
 pyautogui.press("tab") #passou para senha
 pyautogui.write("senha123")
@@ -46,7 +46,7 @@ print(tabela)
 time.sleep(2)
 for linha in tabela.index: 
     #passo 4: cadastrar 1 produto
-    pyautogui.click(x=-1446, y=269) #click no primeiro campo
+    pyautogui.click(x=880, y=265) #click no primeiro campo
     #dica -> sempre faça manualmente e depois faça a automatização
     #codigo
     # tabela.loc[linha, coluna]
