@@ -18,6 +18,7 @@ pyautogui.write("opera")
 
 #depois apertar enter (dica é dividir em cada função parte por parte) 
 pyautogui.press("enter")
+time.sleep(3)
 #escrever link
 link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 pyautogui.write(link)
@@ -27,7 +28,8 @@ pyautogui.press("enter")
 time.sleep(3)
 
 #passo 2:    login: dasbdabsiu@gmail.com 
-pyautogui.click(x=871, y=376)
+pyautogui.press("tab")
+#pyautogui.click(x=871, y=376)
 pyautogui.write("robertin@gmail.com")
 pyautogui.press("tab") #passou para senha
 pyautogui.write("senha123")
@@ -46,9 +48,10 @@ print(tabela)
 time.sleep(2)
 for linha in tabela.index: 
     #passo 4: cadastrar 1 produto
-    pyautogui.click(x=880, y=265) #click no primeiro campo
+    pyautogui.click(x=1680, y=245) #click no primeiro campo
     #dica -> sempre faça manualmente e depois faça a automatização
     #codigo
+    pyautogui.press("tab")
     # tabela.loc[linha, coluna]
     codigo = tabela.loc[linha, "codigo"]
     pyautogui.write(str(codigo))

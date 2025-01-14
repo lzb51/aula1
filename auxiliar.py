@@ -6,3 +6,4 @@ print(pyautogui.position())
 #scroll mouse
 pyautogui.scroll(10000)
 
+
