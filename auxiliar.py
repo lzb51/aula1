@@ -5,4 +5,4 @@ time.sleep(5)
 print(pyautogui.position())
 #scroll mouse
 pyautogui.scroll(10000)
-#oi lucas 
+
