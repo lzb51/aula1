@@ -18,7 +18,7 @@ pyautogui.write("opera")
 
 #depois apertar enter (dica é dividir em cada função parte por parte) 
 pyautogui.press("enter")
-time.sleep(3)
+time.sleep(2)
 #escrever link
 link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 pyautogui.write(link)

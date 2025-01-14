@@ -4,6 +4,4 @@ time.sleep(5)
 #para saber a posição
 print(pyautogui.position())
 #scroll mouse
-pyautogui.scroll(10000)
-
-
+pyautogui.scroll(100000)
